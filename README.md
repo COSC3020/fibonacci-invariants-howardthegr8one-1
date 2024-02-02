@@ -28,3 +28,7 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+# Reasoning for invariant
+
+The invariant for my fibonacci function is that whatever $n$ happens to be, the $nth$ number will always be equal to the $(n-1)th$ + $(n-2)th$ numbers. Thus the invariant is ```fibRecursion(n) = fibRecursion(n-1) + fibRecursion(n-2)```. This is true for the start of every recursive call that isn't our base case and regardless of what $n$ is. 
